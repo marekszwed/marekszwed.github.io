@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Kontakt</title>
+		<script
+			src="https://kit.fontawesome.com/f0de3a3824.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="/dist/css/style.min.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="navigation">
+	<div class="wrapper">
+		<a href="/index.html" class="company">
+			<i class="fa-solid fa-tree tree"></i>
+			<p class="name" id="home">Forest</p>
+		</a>
+		<button class="burger">
+			<i class="fa-solid fa-bars"></i>
+			<i class="fas fa-times hide"></i>
+		</button>
+
+		<nav class="nav">
+			<a class="nav__link active" href="index.html#home">Home</a>
+			<a class="nav__link" href="index.html#aboutUs">O nas</a>
+			<a class="nav__link" href="index.html#offer">Oferta</a>
+			<a class="nav__link" href="/contact.html">Kontakt</a>
+		</nav>
+	</div>
+</div>
+
+		</header>
+		<main class="main-contact">
+			<div class="wrapper">
+				<div class="formBox">
+	<form>
+		<h1>Napisz do nas</h1>
+		<div class="form-box">
+			<label for="email" id="mail">Adres e-mail:</label>
+			<input type="text" id="email" class="mail-input" placeholder="Podaj swój email" />
+			<p class="error-mail hide">Podaj poprawny adres email.</p>
+		</div>
+		<div class="form-box">
+			<label for="name">Podaj imię:</label>
+			<input type="text" id="name" class="name-input" placeholder="Podaj swoje imię" />
+			<p class="error-name hide">To pole nie może być puste.</p>
+		</div>
+		<div class="form-box">
+			<label for="text" id="msg">Zostaw wiadomość:</label>
+			<textarea id="text" cols="10" rows="10"></textarea>
+		</div>
+		<div class="buttons">
+			<button class="clear">Wyczyść</button>
+			<button class="sendBtn">Wyślij</button>
+		</div>
+	
+	</form>
+</div>
+<!-- <div class="formBox">
+	<div class="form">
+		<h1>Napisz do nas</h1>
+		<div class="form-box">
+			<label for="email">Adres e-mail:</label>
+			<input type="text" id="email" class="mail-input" placeholder="Podaj swój email" />
+			<p class="error-mail hide">To pole nie może być puste.</p>
+		</div>
+		<div class="form-box">
+			<label for="username">Podaj imię:</label>
+			<input type="text" id="name" class="name-input" placeholder="Podaj swoje imię" />
+			<p class="error-name hide">To pole nie może być puste.</p>
+		</div>
+		<div class="form-box">
+			<label for="text">Zostaw wiadomość:</label>
+			<textarea id="msg" cols="10" rows="10"></textarea>
+		</div>
+		<button class="sendBtn">Wyślij</button>
+	</div>
+</div> -->
+
+
+
+				<div class="contact">
+					<ul class="contact__items">
+						<li class="contact__item--name">Kontakt:</li>
+						<li class="contact__item">
+							<i class="fa-solid fa-phone icon"></i>
+
+							<p class="contact__item--info">000-000-000</p>
+						</li>
+						<li class="contact__item">
+							<i class="fa-solid fa-envelope icon"></i>
+							<p class="contact__item--info">forest@group.pl</p>
+						</li>
+						<li class="contact__item">
+							<i class="fa-solid fa-location-dot icon"></i>
+
+							<p class="contact__item--info">Jasnogórska 2 Kraków</p>
+						</li>
+					</ul>
+				</div>
+
+				<div class="google">
+					<div class="google__map">
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1522.0970896155022!2d19.892792626388776!3d50.08905827615352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1687360020898!5m2!1spl!2spl"
+							width="800"
+							height="450"
+							style="border: 0"
+							allowfullscreen=""
+							loading="lazy"
+							referrerpolicy="no-referrer-when-downgrade">
+						</iframe>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<footer class="footer">
+	<div class="mini-wrapper">
+		<div class="box-company">
+			<div class="box-company-name">
+				<i class="fa-solid fa-tree tree"></i>
+				<p class="name" id="home">Forest</p>
+			</div>
+		</div>
+		<div class="box box-both">
+			<div class="box-together">
+				<div class="box-about">
+					<h3 class="box__title">O nas</h3>
+					<ul class="box__list">
+						<ul class="link">Historia</ul>
+						<ul class="link">Parki</ul>
+						<ul class="link">Opinie</ul>
+					</ul>
+				</div>
+				<div class="box-business">
+					<h3 class="box__title">Nasza firma</h3>
+					<ul class="box__list">
+						<ul class="link">Praca</ul>
+						<ul class="link">Kadry</ul>
+						<ul class="link">Zarząd</ul>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="box box-doc">
+			<div class="box-document">
+				<h3 class="box__title">Dokumenty</h3>
+				<ul class="box__list">
+					<ul class="link">Wnioski</ul>
+					<ul class="link">Rezerwacje</ul>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<hr class="thin" />
+	<p class="info-text">
+		&copy; <span class="footer__year"></span> Forest Group Company Ltd.
+	</p>
+</footer>
+
+
+		<script src="/dist/js/main.min.js"></script>
+	</body>
+</html>
