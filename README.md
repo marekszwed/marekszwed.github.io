@@ -5,4 +5,4 @@ Everything in this project was made by me apart design.
 
 Technologies which i used: HTML, SASS, JavaScript, Gulp.
 
-I hope you will enjoy it :)
+I hope you will enjoy it!
