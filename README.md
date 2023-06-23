@@ -1,6 +1,6 @@
 This is my first serious project :)
 
-in this project i used my all skills which i learned from course.
+In this project i used my all skills which i learned from course.
 Everything in this project was made by me apart design.
 
 Technologies which i used: HTML, SASS, JavaScript, Gulp.
